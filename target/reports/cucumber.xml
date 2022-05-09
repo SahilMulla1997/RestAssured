@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="7" skipped="0" total="7">
+    <suite duration-ms="9847" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="9847" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="API BDD scenario">
+                <test-method duration-ms="3947" finished-at="2022-05-09T04:01:21.991744Z" name="Stepdef" started-at="2022-05-09T04:01:17.899285200Z" status="PASS"/>
+            </class>
+            <class name="Storing responce into responce object">
+                <test-method duration-ms="945" finished-at="2022-05-09T04:01:22.987022100Z" name="log data on console" started-at="2022-05-09T04:01:22.031029600Z" status="PASS"/>
+            </class>
+            <class name="Storing Responce Object">
+                <test-method duration-ms="384" finished-at="2022-05-09T04:01:23.393955700Z" name="GET" started-at="2022-05-09T04:01:23.002530400Z" status="PASS"/>
+            </class>
+            <class name="To Create responce Object">
+                <test-method duration-ms="1574" finished-at="2022-05-09T04:01:24.991962400Z" name="_2" started-at="2022-05-09T04:01:23.411434700Z" status="PASS"/>
+            </class>
+            <class name="Incorrect Link">
+                <test-method duration-ms="684" finished-at="2022-05-09T04:01:25.697231200Z" name="validate Correct Error" started-at="2022-05-09T04:01:25.007581400Z" status="PASS"/>
+            </class>
+            <class name="To check and validate and assert the functionality when user is created@negativeScenario">
+                <test-method duration-ms="582" finished-at="2022-05-09T04:01:26.306771700Z" name="Foreign Exchange Page failure for assertion" started-at="2022-05-09T04:01:25.717169500Z" status="PASS"/>
+            </class>
+            <class name="Post with future date and validate">
+                <test-method duration-ms="936" finished-at="2022-05-09T04:01:27.261534400Z" name="Foreign Exchange Page future date" started-at="2022-05-09T04:01:26.319737700Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>
+stcase classname="To check and validate and assert the functionality when user is created@negativeScenario" name="Foreign Exchange Page failure for assertion" time="0.589">
+        <system-out><![CDATA[Given API for foreign exchange one for assertion............................passed
+When posted with incorrect Information for assertion........................passed
+Then validate negative response code received for assertion.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Post with future date and validate" name="Foreign Exchange Page future date" time="0.941">
+        <system-out><![CDATA[Given API for foreign exchange two..........................................passed
+When posted with future date information....................................passed
+Then validate positive response code received from futuredate...............passed
+]]></system-out>
+    </testcase>
+</testsuite>
